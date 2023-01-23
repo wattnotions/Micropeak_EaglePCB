@@ -8363,16 +8363,16 @@ Source: AVX .. aphvc.pdf</description>
 <library name="1x6_prog_header">
 <packages>
 <package name="1X6_SMD_HEADER_PADS">
-<smd name="P$1" x="0" y="0" dx="1.2" dy="0.9" layer="1"/>
-<smd name="P$2" x="0" y="-1.7" dx="1.2" dy="0.9" layer="1"/>
-<smd name="P$3" x="0" y="-3.4" dx="1.2" dy="0.9" layer="1"/>
-<smd name="P$4" x="0" y="-5.1" dx="1.2" dy="0.9" layer="1"/>
-<smd name="P$5" x="0" y="-6.8" dx="1.2" dy="0.9" layer="1"/>
-<smd name="P$6" x="0" y="-8.5" dx="1.2" dy="0.9" layer="1"/>
-<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.1524" layer="21" style="longdash"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="-10.16" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-10.16" x2="-1.27" y2="-10.16" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-10.16" x2="-1.27" y2="1.27" width="0.1524" layer="21"/>
+<smd name="P$1" x="0" y="0" dx="0.9" dy="0.5" layer="1"/>
+<wire x1="-0.832" y1="0.692" x2="0.889" y2="0.705" width="0.1524" layer="21" style="longdash"/>
+<wire x1="0.889" y1="0.705" x2="0.889" y2="-6.56" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-6.56" x2="-0.832" y2="-6.573" width="0.1524" layer="21"/>
+<wire x1="-0.832" y1="-6.573" x2="-0.832" y2="0.692" width="0.1524" layer="21"/>
+<smd name="P$2" x="0" y="-1.2" dx="0.9" dy="0.5" layer="1"/>
+<smd name="P$3" x="0" y="-2.4" dx="0.9" dy="0.5" layer="1"/>
+<smd name="P$4" x="0" y="-3.6" dx="0.9" dy="0.5" layer="1"/>
+<smd name="P$5" x="0" y="-4.8" dx="0.9" dy="0.5" layer="1"/>
+<smd name="P$6" x="0" y="-6" dx="0.9" dy="0.5" layer="1"/>
 </package>
 </packages>
 <symbols>

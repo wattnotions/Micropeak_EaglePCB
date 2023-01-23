@@ -10770,12 +10770,12 @@ Source: www.kingbright.com</description>
 <part name="U$2" library="1x6_prog_header" deviceset="1X6_PROG_HEADER" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="H5" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.6" package3d_urn="urn:adsk.eagle:package:14284/1"/>
-<part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.6" package3d_urn="urn:adsk.eagle:package:14284/1"/>
-<part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.6" package3d_urn="urn:adsk.eagle:package:14284/1"/>
-<part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.6" package3d_urn="urn:adsk.eagle:package:14284/1"/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="P-LCC-2" package3d_urn="urn:adsk.eagle:package:15817/1"/>
+<part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
+<part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -10856,7 +10856,14 @@ Source: www.kingbright.com</description>
 <instance part="+3V4" gate="G$1" x="38.1" y="95.25" smashed="yes">
 <attribute name="VALUE" x="35.56" y="90.17" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="H5" gate="G$1" x="48.26" y="45.72" smashed="yes">
+<instance part="+3V5" gate="G$1" x="40.64" y="57.15" smashed="yes">
+<attribute name="VALUE" x="38.1" y="52.07" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LED1" gate="G$1" x="194.056" y="135.89" smashed="yes" rot="R90">
+<attribute name="NAME" x="198.628" y="139.446" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="198.628" y="141.605" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="H4" gate="G$1" x="48.26" y="45.72" smashed="yes">
 <attribute name="NAME" x="51.054" y="46.3042" size="1.778" layer="95"/>
 <attribute name="VALUE" x="51.054" y="43.2562" size="1.778" layer="96"/>
 </instance>
@@ -10871,13 +10878,6 @@ Source: www.kingbright.com</description>
 <instance part="H3" gate="G$1" x="48.26" y="22.86" smashed="yes">
 <attribute name="NAME" x="51.054" y="23.4442" size="1.778" layer="95"/>
 <attribute name="VALUE" x="51.054" y="20.3962" size="1.778" layer="96"/>
-</instance>
-<instance part="+3V5" gate="G$1" x="40.64" y="57.15" smashed="yes">
-<attribute name="VALUE" x="38.1" y="52.07" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="LED1" gate="G$1" x="194.056" y="135.89" smashed="yes" rot="R90">
-<attribute name="NAME" x="198.628" y="139.446" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="198.628" y="141.605" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -10999,22 +10999,22 @@ Source: www.kingbright.com</description>
 <wire x1="38.1" y1="86.36" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="H5" gate="G$1" pin="MOUNT"/>
 <wire x1="45.72" y1="45.72" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="45.72" x2="40.64" y2="54.61" width="0.1524" layer="91"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
-<pinref part="H1" gate="G$1" pin="MOUNT"/>
 <wire x1="45.72" y1="38.1" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="38.1" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
 <junction x="40.64" y="45.72"/>
-<pinref part="H2" gate="G$1" pin="MOUNT"/>
 <wire x1="45.72" y1="30.48" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="30.48" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
 <junction x="40.64" y="38.1"/>
-<pinref part="H3" gate="G$1" pin="MOUNT"/>
 <wire x1="45.72" y1="22.86" x2="40.64" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="22.86" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
 <junction x="40.64" y="30.48"/>
+<pinref part="H4" gate="G$1" pin="MOUNT"/>
+<pinref part="H1" gate="G$1" pin="MOUNT"/>
+<pinref part="H2" gate="G$1" pin="MOUNT"/>
+<pinref part="H3" gate="G$1" pin="MOUNT"/>
 </segment>
 </net>
 <net name="N$3" class="0">
