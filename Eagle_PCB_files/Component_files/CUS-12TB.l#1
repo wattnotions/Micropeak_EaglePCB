@@ -107,7 +107,6 @@ LOW-PROFILE SLIDE SWITCHES</description>
 <wire x1="8.41" y1="6.53" x2="8.41" y2="3.99" width="0.1524" layer="94" curve="-90"/>
 <wire x1="8.36" y1="4.01" x2="8.97" y2="4.29" width="0.1524" layer="94" style="longdash"/>
 <wire x1="8.38" y1="4.01" x2="8.26" y2="4.54" width="0.1524" layer="94" style="longdash"/>
-<text x="5.79" y="-9.51" size="1.778" layer="94">Chassis</text>
 </symbol>
 </symbols>
 <devicesets>
