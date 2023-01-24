@@ -24,15 +24,17 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.5620932"
-     inkscape:cx="458.02394"
-     inkscape:cy="623.51363"
+     inkscape:zoom="10.248373"
+     inkscape:cx="425.77491"
+     inkscape:cy="722.89525"
      inkscape:window-width="3440"
      inkscape:window-height="1377"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-global="false" />
   <defs
      id="defs2">
     <rect
@@ -74,14 +76,18 @@
        cx="102.56825"
        cy="194.79478"
        r="1.2847321" />
-    <rect
-       style="fill:none;stroke:#ffffff;stroke-width:0.0495461;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect13214"
-       width="17.671707"
-       height="14.2089"
-       x="100.58987"
-       y="182.59697"
-       transform="rotate(-0.01577523)" />
+    <circle
+       style="fill:none;stroke:#ffffff;stroke-width:0.0545544;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path13110-3"
+       cx="116.48679"
+       cy="184.41161"
+       r="1.2847321" />
+    <circle
+       style="fill:none;stroke:#ffffff;stroke-width:0.0100586;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path13110-6"
+       cx="102.54087"
+       cy="194.79478"
+       r="1.5619693" />
     <rect
        style="fill:none;stroke:#ffffff;stroke-width:0.01;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect13318"
@@ -121,5 +127,19 @@
        transform="scale(0.26458333)"
        id="text25816"
        style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect25818)" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1388"
+       width="13.918541"
+       height="10.383179"
+       x="0.050000001"
+       y="0.050000001" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1492"
+       width="17.942888"
+       height="14.225225"
+       x="100.55762"
+       y="182.52693" />
   </g>
 </svg>
