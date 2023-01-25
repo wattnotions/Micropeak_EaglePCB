@@ -3,3 +3,6 @@
 
 
 PDF of schematic available  [here](schematic.pdf)
+
+
+Digikey basket with all components available [here] (https://www.digikey.ie/short/rqj3081d)
